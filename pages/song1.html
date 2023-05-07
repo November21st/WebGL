@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>我的测试网页</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://via.placeholder.com/1920x1080?text=Background+Image');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .box {
+            transform: translate(-30%) scale(0.7);
+            opacity: 0;
+            transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+        }
+
+        .show {
+            transform: translate(0%) scale(1.2);
+            opacity: 1;
+        }
+
+        .enter {
+            transform: translate(-30%) scale(0.7);
+            opacity: 0;
+        }
+
+        .leave {
+            transform: translate(-30%) scale(0.7);
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark bg-dark py-4">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><strong>首页</strong></a>
+            <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+                <ul class="navbar-nav ml-auto align-items-lg-center">
+                    <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">周南</a>
+                        <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
+                            <a class="dropdown-item" href="./pages/zhounan.html">诗词1</a>
+                            <a class="dropdown-item" href="./pages/zhaonan.html">诗词2</a>
+                            <a class="dropdown-item" href="./pages/beifeng.html">诗词3</a>
+                            <a class="dropdown-item" href="./pages/beifeng.html">诗词4</a>
+                            <a class="dropdown-item" href="./pages/beifeng.html">诗词5</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <section class="spotlight bg-cover bg-size--cover" style="background-image: url('../assets/images/backgrounds/img-1.jpg')">
+            <span class="mask bg-primary alpha-7"></span>
+            <div class="spotlight-holder py-sm pt-lg-lg">
+                <div class="container d-flex align-items-center">
+                    <div class="row cols-xs-space cols-sm-space cols-md-space align-items-center justify-content-around">
+                        <div class="col-lg-5 text-center">
+                            <h2 class="heading h1 text-white strong-400">
+                                Want to take your project to the next level?
+                            </h2>
+                            <p class="lead text-white mt-4">
+                                We put all the experience and know-how in thi product so we can offer you the best product we have ever built.
+                            </p>
+                            <p class="lead text-white mt-4">
+                                We put all the experience and know-how in thi product so we can offer you the best product we have ever built.
+                            </p>
+                            <p class="lead text-white mt-4">
+                                We put all the experience and know-how in thi product so we can offer you the best product we have ever built.
+                            </p>
+                            <p class="lead text-white mt-4">
+                                We put all the experience and know-how in thi product so we can offer you the best product we have ever built.
+                            </p>
+                            <p class="lead text-white mt-4">
+                                We put all the experience and know-how in thi product so we can offer you the best product we have ever built.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-lighter border-top border-bottom" id="scrollToSection">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="#" class="btn btn-danger btn-icon-only btn-zoom--hover rounded-circle">
+                        <span class="btn-inner--icon"><i class="fas fa-heart"></i></span>
+                    </a>
+                    <span class="heading h4 ml-3 mb-0">Build professional and modern looking websites in no time.</span>
+                </div>
+            </div>
+        </section>
+        <div class="box enter">
+            <section class="slice slice-lg" data-delimiter="1">
+                <div class="container">
+                    <div class="row cols-xs-space cols-sm-space align-items-center">
+                        <div class="col-md-6">
+                            <img src="../assets/images/prv/img-1-1000x900.jpg" class="img-center img-fluid rounded z-depth-3">
+                        </div>
+                        <div class="col-md-6 col-lg-5 ml-lg-auto">
+                            <div class="pr-md-4">
+                                <h3 class="heading h3">
+                                    All the features you need for a professional website
+                                </h3>
+                                <p class="lead text-gray mt-4">
+                                    With Boomerang UI you get components and examples, including tons of variables that will help you customize this theme with ease.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box enter">
+            <section class="slice slice-lg" data-delimiter="1">
+                <div class="container">
+                    <div class="px-4">
+                        <div class="row justify-content-center cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-lg-7">
+                                <div class="text-center">
+                                    <h1 class="heading h3">
+                                        Curious about what you get in the FREE version?
+                                    </h1>
+                                    <p class="lead lh-180 mt-4">
+                                        One thing is for sure. You will be impressed of how much you receive with this free version of Boomerang UI. We offer more than any other UI kit has offered before. This is our way of showing that we are here to deliver, day by day, for a better web experience.
+                                    </p>
+                                    <div class="btn-container mt-5">
+                                        <a href="#" class="btn btn-primary">
+                                            Download FREE
+                                        </a>
+                                        <a href="#" class="btn btn-link">See all features</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box enter">
+            <section class="slice slice-xl" data-delimiter="1">
+                <div class="container">
+                    <div class="row cols-xs-space cols-sm-space align-items-center">
+                        <div class="col-md-6 order-md-2 ml-lg-auto">
+                            <img src="../assets/images/prv/img-2-1000x900.jpg" class="img-center img-fluid rounded z-depth-3">
+                        </div>
+                        <div class="col-md-6 col-lg-5 order-md-1">
+                            <div class="pr-md-4">
+                                <h3 class="heading h3">
+                                    Documentation and tooling
+                                </h3>
+                                <p class="lead text-gray mt-4">Every component and plugin is thoroughly documented with live examples and code blocks for easier use and customization—just like Bootstrap itself. Not comfortable diving that deep? No worries, you can get started by double clicking index.html!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box enter">
+            <section class="slice slice-lg" data-delimiter="1">
+                <div class="container">
+                    <div class="px-4">
+                        <div class="row justify-content-center cols-xs-space cols-sm-space cols-md-space">
+                            <div class="col-lg-7">
+                                <div class="text-center">
+                                    <h1 class="heading h3">
+                                        Curious about what you get in the FREE version?
+                                    </h1>
+                                    <p class="lead lh-180 mt-4">
+                                        One thing is for sure. You will be impressed of how much you receive with this free version of Boomerang UI. We offer more than any other UI kit has offered before. This is our way of showing that we are here to deliver, day by day, for a better web experience.
+                                    </p>
+                                    <div class="btn-container mt-5">
+                                        <a href="#" class="btn btn-primary">
+                                            Download FREE
+                                        </a>
+                                        <a href="#" class="btn btn-link">See all features</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box enter">
+            <section class="slice slice-lg" data-delimiter="1">
+                <div class="container">
+                    <div class="row cols-xs-space cols-sm-space align-items-center">
+                        <div class="col-md-6">
+                            <img src="../assets/images/prv/img-1-1000x900.jpg" class="img-center img-fluid rounded z-depth-3">
+                        </div>
+                        <div class="col-md-6 col-lg-5 ml-lg-auto">
+                            <div class="pr-md-4">
+                                <h3 class="heading h3">
+                                    All the features you need for a professional website
+                                </h3>
+                                <p class="lead text-gray mt-4">
+                                    With Boomerang UI you get components and examples, including tons of variables that will help you customize this theme with ease.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box enter">
+            <section class="slice slice-lg">
+                <div class="container">
+                    <div class="mb-md text-center">
+                        <h3 class="heading h3">The main features of Boomerang UI</h3>
+                        <div class="fluid-paragraph text-center mt-4">
+                            <p class="lead lh-180">You get all Bootstrap components fully customized. Besides, you receive another 5 plugins out of the box and ready to use. <a href="../docs/plugins.html">See the complete list</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="pt-5 pb-3 footer  footer-dark bg-tertiary">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md" style="text-align: center;margin:auto">
+                    <h5 class="heading h6 text-uppercase font-weight-700 mb-3">关于作者</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted">枕上诗书闲处好，门前风景雨来佳。</a></li>
+                        <li><a class="text-muted" style="text-align: right">——李清照</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </footer>
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="../assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Page plugins -->
+    <script src="../assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="../assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script src="../assets/vendor/input-mask/input-mask.min.js"></script>
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+    <script src="../assets/vendor/textarea-autosize/textarea-autosize.min.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+
+    <script>
+        var boxes = document.querySelectorAll('.box');
+        var windowHeight = window.innerHeight;
+        var boxHeight = boxes[0].offsetHeight;
+        var topThreshold = windowHeight / 2 - boxHeight;
+        var bottomThreshold = windowHeight / 2 + boxHeight / 2;
+        var currentIndex = 0;
+        window.addEventListener('scroll', function () {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > topThreshold && scrollTop < bottomThreshold) {
+                if (currentIndex < boxes.length) {
+                    boxes[currentIndex].classList.add('show');
+                    currentIndex++;
+                }
+            }
+            boxes.forEach(function (box, index) {
+                var boxTop = box.getBoundingClientRect().top;
+                if (boxTop > 0 && boxTop < windowHeight) {
+                    if (index < currentIndex) {
+                        box.classList.remove('enter');
+                    } else {
+                        box.classList.add('enter');
+                    }
+                } else {
+                    box.classList.remove('enter');
+                }
+                if (boxTop < -boxHeight || boxTop > windowHeight) {
+                    if (index < currentIndex) {
+                        box.classList.add('leave');
+                    } else {
+                        box.classList.remove('leave');
+                    }
+                } else {
+                    box.classList.remove('leave');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
